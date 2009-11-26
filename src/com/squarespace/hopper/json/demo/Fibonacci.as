@@ -30,7 +30,7 @@ package com.squarespace.hopper.json.demo
 			return response;	
 		}
 		
-		function fib(n:int):int {
+		internal function fib(n:int):int {
 			if (n < 2) return 1;
 			else return fib(n-1) + fib(n-2);
 		}
